@@ -1,0 +1,93 @@
+header {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+footer { 
+    background-color: white;
+}
+
+.container { /*Para colocar footer siempre al final*/
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows:auto 1fr auto;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 50%;
+    border-color: #a73333;
+    border-style: solid;
+    border-width: thick;
+
+    display: block;
+    margin: auto;
+
+    box-shadow: 10px 10px 50px 10px grey
+}
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2em;
+    color:#a73333
+}
+
+a{
+    text-decoration: none;
+}
+
+b{
+    color: #a73333;
+    font-weight: bolder;
+}
+
+.social-btn{
+    height: 50px;
+    width: 50px;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    border-width: 0;
+    margin: 10px auto;
+}
+
+.social-btn img{
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.botones-redes {
+    padding-top: 1em;
+}
+
+.botones-redes button:hover {
+    background-color: #a73333;
+    opacity: 50%;
+    
+  }
+
+.boton-seccion {
+    font-size: large;
+    height: 2em;
+    width: 10em;
+    border-color: #a73333;
+    border-radius: 10%;
+}
+
+.botones-secciones {
+    padding-top: 3em;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.botones-secciones button:hover {
+    background-color: #a73333;
+    opacity: 50%;
+  }
